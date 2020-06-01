@@ -1,0 +1,11 @@
+.search__container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 180px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    width: 70%;
+    margin-left: 300px;
+    margin-right: 150px;
+}

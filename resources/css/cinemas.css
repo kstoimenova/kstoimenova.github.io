@@ -1,0 +1,104 @@
+body {
+    line-height: 1.5;
+    background: linear-gradient(180deg, rgba(37, 44, 108, 0.91) 0%, rgba(47, 48, 58, 0.91) 100%);
+}
+
+.content-wrapper {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 100px;
+}
+
+h2 {
+  color: white;
+  font: Georgia, serif
+}
+
+.scrollable {
+  overflow-y: scroll;
+  height: 86vh;
+}
+
+.scrollable::-webkit-scrollbar {
+  width: 0 !important
+}
+
+.link {
+  color: white;
+}
+
+.link:hover{
+    color: #FE9E0F;
+}
+
+.link:active {
+  color: red;
+}
+
+.linkNA {
+  color: transparent;
+}
+
+.linkNA:hover {
+  color: transparent;
+}
+
+.shape {
+  height: 35%;
+  width: 105%;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 20px;
+  margin-left: 5%;
+  margin-bottom: 5px;
+  background-color: #14004D;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shape:hover {
+  transform: scale(1.1);
+}
+
+.shape2 {
+  height: 35%;
+  width: 105%;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 20px;
+  margin-left: 5%;
+  margin-bottom: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 20px 30px;
+}
+
+.btn-add {
+  border-radius: 50px !important;
+  background-color: #172370 !important;
+  font-size: 20px !important;
+  text-align: center;
+  padding: 0px !important;
+  color: white !important;
+}
+
+a:hover {
+  color: orange !important;
+  text-decoration: none !important;
+}
+
+a:active {
+  color: red !important;
+  text-decoration: none !important;
+}

@@ -1,0 +1,51 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../resources/css/custom-navbar.css">
+    <link rel="stylesheet" href="../resources/css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="icon-bar">
+        <a href="./index.html"><img src="../resources/images/logo.png" alt=""></a>
+        <a href="./cinemas.html"><i class="fa fa-video-camera"></i></a>
+        <a href="./movie-list-unregistered.html"><i class="fa fa-film"></i></a>
+        <a href="./ranking.html"><i class="fa fa-trophy"></i></a>
+        <a href="./article.html"><i class="fa fa-globe"></i></a>
+        <a href="./actors.html"><i class="fa fa-user"></i></a>
+    </div>
+
+    <div class="main-wrapper">
+        <div class="content-wrapper">
+            <div class="jumbotron Login-jumbotron">
+                <h2>Login</h2>
+                <br>
+                <form>
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="user_123">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="**********">
+                    </div>
+                    <div class="centered">
+                        <a id="login-btn" href="./home-loggedIn.html" type="submit" class="btn btn-primary btn-login">Login</a>
+                        <br>
+                        <small>New here? <a id="login-btn" href="./register.html" class="orange-text">Register now!</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script src="../resources/js/login.js"></script>
+</body>
+
+</html>

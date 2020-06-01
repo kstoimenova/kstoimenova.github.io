@@ -1,0 +1,122 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Actor Info</title>
+    <link rel="stylesheet" href="../resources/css/custom-navbar.css">
+    <link rel="stylesheet" href="../resources/css/add-edit-entity.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="icon-bar">
+        <a href="./home-admin.html"><img src="../resources/images/logo.png" alt=""></a>
+        <a href="./cinemas-admin.html"><i class="fa fa-video-camera"></i></a>
+        <a href="./movie-list-admin.html"><i class="fa fa-film"></i></a>
+        <a href="./ranking-admin.html"><i class="fa fa-trophy"></i></a>
+        <a href="./article-admin.html"><i class="fa fa-globe"></i></a>
+        <a href="./actors-admin.html"><i class="fa fa-user"></i></a>
+    </div>
+
+    <div class="main-wrapper">
+        <div class="content-wrapper">
+            <div class="jumbotron add-edit-jumbotron">
+                <h2>Edit Info About An Actor</h2>
+                <br>
+                <form>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="name">Actor name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Scarlett Johansson">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="born">Born</label>
+                                <input type="date" class="form-control" id="born">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="nationality">Nationality</label>
+                                <input type="text" class="form-control" id="nationality" placeholder="American">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="centered">active years</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="from">from</label>
+                                <input type="date" class="form-control" id="from">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="to">to</label>
+                                <input type="date" class="form-control" id="to" placeholder="American">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="centered">siblings</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="sister">sister</label>
+                                <input type="text" class="form-control" id="sister" placeholder="Vanessa Johansson">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="brother">brother</label>
+                                <input type="text" class="form-control" id="to" placeholder="Hunter Johansson">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="husband">husband</label>
+                                <input type="text" class="form-control" id="husband" placeholder="Colin Jost">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="father">brother</label>
+                                <input type="text" class="form-control" id="brother" placeholder="Adrian Johansson">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="centered">FACTS</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="title">title</label>
+                                <input type="" class="form-control" id="title" placeholder="fact #1">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="description">Description </label>
+                                <textarea class="form-control" id="description" rows="3" placeholder="..."></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="centered">
+                        <a href="./actors-admin.html" type="submit" class="btn btn-primary btn-add-edit">Edit</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

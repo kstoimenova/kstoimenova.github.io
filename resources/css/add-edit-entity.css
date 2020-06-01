@@ -1,0 +1,111 @@
+body {
+    line-height: 1.5;
+    background: linear-gradient(180deg, rgba(37, 44, 108, 0.91) 0%, rgba(47, 48, 58, 0.91) 100%);
+}
+
+.content-wrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 35px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.8em;
+}
+
+.paragraph {
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-style: italic;
+}
+
+p {
+    color: white;
+    font-size: 1.15em;
+    text-shadow: 0.075em 0 black, 0 0.075em black, -0.075em 0 black, 0 -0.075em black;
+}
+
+small {
+    color: white;
+}
+
+.add-edit-jumbotron {
+    border-radius: 25px !important;
+    background-color: #14004D !important;
+    color: white;
+    padding-top: 40px 4% !important;
+    width: 60%;
+    margin: auto;
+}
+
+.orange-text {
+    color: orange !important;
+}
+
+.form-control {
+    background-color: white !important;
+    color: black !important;
+    text-shadow: none !important;
+    border: none !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.form-control::placeholder {
+    color: rgb(196, 196, 196) !important;
+    font-style: italic !important;
+}
+
+.file-form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.centered {
+    margin: auto;
+    text-align: center;
+}
+
+.btn-add-edit {
+    border-radius: 20px !important;
+    background-color: #172370 !important;
+    font-size: 30px !important;
+    line-height: normal !important;
+    text-align: center;
+    width: 40% !important;
+    padding: 3px !important;
+    font-size: 1.5em !important;
+    margin: 10px;
+}
+
+.btn-add-edit:hover {
+    background-color: orange !important;
+    color: black !important;
+}
+
+.no-shadow {
+    color: black !important;
+    text-shadow: none !important;
+}
+
+input[type="button"] {
+    outline: none !important;
+}

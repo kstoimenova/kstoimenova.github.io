@@ -1,0 +1,110 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../resources/css/article.css">
+    <link rel="stylesheet" href="../resources/css/custom-navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../resources/css/search.css">
+    <title>Articles</title>
+</head>
+
+<body>
+    <div class="search__container input-group md-form form-sm form-2 pl-0 add-wrapper">
+        <div class="search-wrapper">
+            <select class="form-control my-0 py-1 amber-border " type="text" placeholder="Search" aria-label="Search" onchange="window.location.href=this.value;">
+                <option value="" disabled selected>SEARCH ARTICLE</option>
+                <!-- <option value="ranking.html">ranking</option> link for another page -->
+                <option value="">oscars</option>
+            </select>
+            <div class="input-group-append">
+                <span class="input-group-text amber lighten-3" id="basic-text1"><i class="fa fa-search text-grey"
+                  aria-hidden="true"></i></span>
+            </div>
+        </div>
+        <a href="./add-article.html" type="submit" class="btn btn-primary btn-block btn-add">Add article</a>
+    </div>
+
+    <div class="icon-bar">
+        <a href="./home-admin.html"><img src="../resources/images/logo.png" alt=""></a>
+        <a href="./cinemas-admin.html"><i class="fa fa-video-camera"></i></a>
+        <a href="./movie-list-admin.html"><i class="fa fa-film"></i></a>
+        <a href="./ranking-admin.html"><i class="fa fa-trophy"></i></a>
+        <a class="active" href="./article-admin.html"><i class="fa fa-globe"></i></a>
+        <a href="./actors-admin.html"><i class="fa fa-user"></i></a>
+    </div>
+
+    <div class="main-wrapper">
+        <div class="content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-8 scrollable hide-scrollbar">
+                        <h2>Trending now</h2>
+                        <hr class="header-delim">
+                        <div class="card mb-3" id="oscars">
+                            <img src="../resources/images/oscars.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Oscar Nominations 2020: The Complete List - 92nd Academy Awards</h5>
+                                <p class="card-text"><small class="text-muted">by Ludacite on March 25th 2020</small></p>
+                                <p class="card-text">Todd Phillips’ “Joker,” a comic-book origin story about Batman’s biggest foe, scored a leading 11 Oscar nominations for the 92nd Academy Awards, including best picture, best director for Phillips and best actor for Joaquin
+                                    Phoenix. <br> <br> Martin Scorsese’s mob epic “The Irishman,” Quentin Tarantino’s ode to Los Angeles “Once Upon a Time in Hollywood” and Sam Mendes’ war drama “1917” followed close behind with 10 nods a piece. Those
+                                    films, along with “Ford v Ferrari,” “Jojo Rabbit,” will compete for best picture.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card mb-3">
+                            <img src="../resources/images/avatar.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Avatar 2: New Jake & Neytiri Story Details Revealed</h5>
+                                <p class="card-text"><small class="text-muted">by Ludacite on May 25th 2020</small></p>
+                                <p class="card-text">Avatar 2 producer Jon Landau sheds new light on where the sequel will find Jake (Sam Worthington) and Neytiri (Zoe Saldana). A good portion of 2009's Avatar focused on the growing relationship between human Jake and Na'vi
+                                    Neytiri, and the film ended with Jake permanently becoming one of the Na'vi by transferring his consciousness into his avatar. In 2021, over ten years since the first installment, audiences will finally learn about
+                                    what happened to Jake and Neytiri after Jake's transformation. One thing is already certain: They have children now. Plus, fans will get to see how this couple continues to grow over four additional sequels, as director
+                                    James Cameron has some big plans for the characters and the world of Pandora.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col scrollable hide-scrollbar">
+                        <h2>Latest</h2>
+                        <hr class="header-delim">
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Animated series based on Angry Birds franchise set to take flight on Netflix</h5>
+                                <p class="card-text"><small class="text-muted">by Ludacite just now</small></p>
+                                <p class="card-text">First they invaded your phones, then they came for your children. Not long after that, Rovio Entertainment's Angry Birds franchise took flight in theaters by way of two animated films featuring characters based on the mega-popular
+                                    video game series.</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">2020 Tony Awards Postponed Due to the Coronavirus</h5>
+                                <p class="card-text"><small class="text-muted">by Ludacite an hour ago</small></p>
+                                <p class="card-text">The 2020 Tony Awards have been postponed due to the coronavirus outbreak. “The health and safety of the Broadway community, artists, and fans is of the utmost importance to us,” producers said in a statement Wednesday.</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-3">
+                            <div class="card-body">
+                                <h5 class="card-title">Scream 5 Directors Wrote A Letter To Neve Campbell Pitching Sequel Ideas</h5>
+                                <p class="card-text"><small class="text-muted">by Ludacite two hours ago</small></p>
+                                <p class="card-text">Scream 5 directors Matt Bettinelli-Olpin and Tyler Gillet wrote Neve Campbell a letter pitching their idea for the next installment of the beloved slasher franchise. For some time now, the fate of Scream 5 has been up in
+                                    the air following both the mixed response to 2011's Scream 4 and the passing of director Wes Craven.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

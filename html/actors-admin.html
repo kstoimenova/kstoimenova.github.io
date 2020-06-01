@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../resources/css/custom-navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./../resources/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./../resources/css/search.css">
+    <link rel="stylesheet" href="./../resources/css/actor-info.css">
+    <title>Information about actors</title>
+</head>
+
+<body>
+    <div class="icon-bar">
+        <a href="./home-admin.html "><img src="./../resources/images/logo.png " alt=" "></a>
+        <a href="./cinemas-admin.html "><i class="fa fa-video-camera "></i></a>
+        <a href="./movie-list-admin.html "><i class="fa fa-film "></i></a>
+        <a href="./ranking-admin.html "><i class="fa fa-trophy "></i></a>
+        <a href="./article-admin.html "><i class="fa fa-globe "></i></a>
+        <a class="active " href="actors-admin.html"><i class="fa fa-user "></i></a>
+    </div>
+
+    <div class="search__container input-group md-form form-sm form-2 pl-0 ">
+        <select class="form-control my-0 py-1 amber-border " type="text " placeholder="Search " aria-label="Search " onchange="window.location.href=this.value; ">
+            <option value=" " disabled selected>CHOOSE ACTOR</option>
+            <option value="actor-info-admin/about-James-McAvoy-admin.html ">James McAvoy</option>
+            <option value="actor-info-admin/about-Jessica-Chastain-admin.html">Jessica Chastain</option>
+            <option value="actor-info-admin/about-Joaquin-Phoenix-admin.html ">Joaquin Phoenix</option>
+            <option value="actor-info-admin/about-Scarlett-Johansson-admin.html">Scarlett Johansson</option>
+        </select>
+        <select class="form-control my-0 py-1 amber-border " type="text " placeholder="Search " aria-label="Search " onchange="window.location.href=this.value; ">
+            <option value=" " disabled selected>EDIT ACTOR</option>
+            <option value="edit-actor-info.html">James McAvoy</option>
+            <option value="edit-actor-info.html">Jessica Chastain</option>
+            <option value="edit-actor-info.html">Joaquin Phoenix</option>
+            <option value="edit-actor-info.html">Scarlett Johansson</option>
+        </select>
+        <select class="form-control my-0 py-1 amber-border " type="text " placeholder="Search " aria-label="Search " onchange="window.location.href=this.value; ">
+            <option value=" " disabled selected>DELETE ACTOR</option>
+            <option value="">James McAvoy</option>
+            <option value="">Jessica Chastain</option>
+            <option value="">Joaquin Phoenix</option>
+            <option value="">Scarlett Johansson</option>
+        </select>
+        <div class="input-group-append ">
+            <span class="input-group-text amber lighten-3 " id="basic-text1 "><i class="fa fa-search text-grey "
+                    aria-hidden="true"></i></span>
+        </div>
+        <a href="./add-actor-info.html" type="submit" class="btn btn-primary btn-block btn-add">add info for actior</a>
+
+    </div>
+
+</body>
+
+</html>

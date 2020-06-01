@@ -1,0 +1,41 @@
+.icon-bar {
+    width: 110px;
+    background-color: #14004D;
+    height: 100%;
+    position: fixed;
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 50px;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.icon-bar a:hover {
+    background-color: rgb(91, 76, 175);
+    color: #FE9E0F;
+}
+
+.icon-bar a:active {
+    color: red;
+}
+
+.active {
+    background-color: rgb(91, 76, 175);
+}
+
+.main-wrapper {
+    margin-left: 110px;
+}

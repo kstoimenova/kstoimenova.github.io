@@ -1,0 +1,283 @@
+body {
+    line-height: 1.5;
+    background: linear-gradient(180deg, rgba(37, 44, 108, 0.91) 0%, rgba(47, 48, 58, 0.91) 100%);
+}
+
+.col-md-10 a:link {
+    color: white !important;
+}
+
+.col-md-10 a:visited {
+    color: white !important;
+}
+
+.col-md-10 a:hover {
+    color: orange !important;
+    text-decoration: none !important;
+}
+
+.col-md-10 a:active {
+    color: red !important;
+    text-decoration: none !important;
+}
+
+.content-wrapper {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 35px;
+}
+
+iframe {
+    width: 100% !important;
+    float: right !important;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.8em;
+}
+
+h5 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.8em;
+}
+
+h6 {
+    color: black !important;
+}
+
+.red-text {
+    color: red !important;
+}
+
+.paragraph {
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-style: italic;
+}
+
+p {
+    color: white;
+    font-size: 1.15em;
+    text-shadow: 0.075em 0 black, 0 0.075em black, -0.075em 0 black, 0 -0.075em black;
+}
+
+.movie-jumbotron {
+    border-radius: 25px !important;
+    background-color: #14004D !important;
+    color: white;
+    padding: 40px 4% !important;
+}
+
+.movie-jumbotron img {
+    width: 100%;
+    float: right;
+}
+
+.movie-jumbotron p {
+    font-size: medium;
+    text-align: justify;
+    margin-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.orange-text {
+    color: orange !important;
+}
+
+.movie-jumbotron hr {
+    background-color: white;
+}
+
+.screening-jumbotron,
+.comment-jumbotron {
+    border-radius: 25px !important;
+    background-color: #172370 !important;
+    color: white;
+    padding: 20px 4% !important;
+}
+
+.cinema-jumbotron {
+    border-radius: 0px !important;
+    background-color: rgb(196, 196, 196) !important;
+    color: white;
+    padding: 20px 4% !important;
+}
+
+.location-jumbotron {
+    border-radius: 0px !important;
+    background-color: #172370 !important;
+    color: white;
+    padding: 10px 4% !important;
+    margin-bottom: 10px !important;
+}
+
+.location {
+    color: white;
+    text-align: center !important;
+    margin-bottom: 30px;
+    text-shadow: none !important;
+}
+
+.btn-time {
+    background-color: orange !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    border-radius: 0px !important;
+    color: black !important;
+}
+
+.add-comment-jumbotron {
+    border-radius: 25px !important;
+    background-color: orange !important;
+    color: white;
+    padding: 20px 4% !important;
+}
+
+.comment {
+    color: black !important;
+    background-color: orange !important;
+}
+
+.form-control {
+    color: black !important;
+    text-shadow: none !important;
+    border: none !important;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.form-control::placeholder {
+    color: white !important;
+    font-style: italic !important;
+}
+
+.orange-bg {
+    background-color: orange !important;
+}
+
+.btn-add-comment {
+    border-radius: 50px !important;
+    background-color: #172370 !important;
+    font-size: 30px !important;
+    vertical-align: middle !important;
+    line-height: normal !important;
+    text-align: center;
+    padding: 0px !important;
+}
+
+.btn-like {
+    float: right;
+    border-radius: 20px !important;
+    background-color: #172370 !important;
+    font-size: 30px !important;
+    vertical-align: middle !important;
+    line-height: normal !important;
+    text-align: center;
+    width: 40% !important;
+    padding: 0px !important;
+}
+
+.btn-like:hover {
+    background-color: rgb(91, 76, 175) !important;
+    color: black !important;
+}
+
+.btn-back {
+    float: left;
+    border-radius: 20px !important;
+    background-color: #172370 !important;
+    font-size: 30px !important;
+    vertical-align: middle !important;
+    line-height: normal !important;
+    text-align: center;
+    width: 40% !important;
+    padding: 0px !important;
+}
+
+.btn-back:hover {
+    background-color: orange !important;
+    color: black !important;
+}
+
+.comment-jumbotron {
+    border-radius: 25px !important;
+    background-color: rgb(196, 196, 196) !important;
+    color: white;
+    padding: 20px 4% !important;
+}
+
+.btn-report-comment {
+    border-radius: 50px !important;
+    background-color: red !important;
+    font-size: 30px !important;
+    vertical-align: middle !important;
+    line-height: normal !important;
+    text-align: center;
+    padding: 0px !important;
+    border-color: orangered !important;
+}
+
+.no-shadow {
+    color: black !important;
+    text-shadow: none !important;
+}
+
+input[type="button"] {
+    outline: none !important;
+}
+
+.btn-edit {
+    border-radius: 50px !important;
+    background-color: #172370 !important;
+    font-size: 20px !important;
+    text-align: center;
+    padding: 0px !important;
+    color: white !important;
+}
+
+.btn-remove {
+    border-radius: 50px !important;
+    background-color: red !important;
+    font-size: 20px !important;
+    text-align: center;
+    padding: 0px !important;
+    color: white !important;
+    border-color: orangered !important;
+}
+
+.add-screening-jumbotron {
+    border-radius: 25px !important;
+    background-color: orange !important;
+    color: black;
+    padding: 20px 4% !important;
+}
+
+.add-screening-jumbotron form-input {
+    background-color: white !important;
+}
+
+.btn-add-screening {
+    border-radius: 20px !important;
+    background-color: #172370 !important;
+    font-size: 30px !important;
+    line-height: normal !important;
+    text-align: center;
+    width: 40% !important;
+    padding: 3px !important;
+    font-size: 1.5em !important;
+    margin: 10px;
+}
+
+.centered {
+    margin: auto;
+    text-align: center;
+}
